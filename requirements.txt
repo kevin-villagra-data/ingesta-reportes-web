@@ -1,0 +1,6 @@
+pandas>=2.1
+selenium>=4.20
+pyotp>=2.9
+pytest>=8.0
+# Solo para cargar en SQL Server real:
+# pyodbc>=5.0

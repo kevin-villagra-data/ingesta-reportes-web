@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+descargas/
+*.db
+*.log
+portal_demo/reporte_mensajes.csv
+error_bot.png

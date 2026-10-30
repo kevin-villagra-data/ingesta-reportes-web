@@ -92,5 +92,11 @@ INFO ingesta: OK: 20000 filas leídas, 0 nuevas en el histórico
 | `UPDATE` + `INSERT ... NOT EXISTS` en lugar de `MERGE` | Más simple de leer y de depurar, sin los problemas conocidos de `MERGE` con concurrencia. |
 | Credenciales en variables de entorno | Nada sensible en el código ni en el repo (`.env` está en `.gitignore`). |
 
+## Próximos pasos
+
+- Pasar de SQL Server Agent a **Airflow**, con alertas y reintentos por tarea.
+- Evaluar la **API REST** del proveedor para reemplazar Selenium: una API es más estable que depender de la interfaz web.
+
+---
 
 Kevin Villagra · [LinkedIn](https://www.linkedin.com/in/kevin-villagra-data/)
